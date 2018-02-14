@@ -12,6 +12,7 @@ class ItemList extends React.Component{
 	// }
 	onPressButton(bucket, items){
 		this.props.navigation.navigate('AddItem', {entryId: bucket, items: items})
+		//random comment
 	}
 
 
